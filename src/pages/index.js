@@ -206,11 +206,9 @@ class HomeIndex extends React.Component {
 								<ul className="labeled-icons">
 									<li>
 										<h3 className="icon fa-home">
-											<span className="label">Address</span>
+											<span className="label">Адресс</span>
 										</h3>
-										1234 Somewhere Rd.<br/>
-										Nashville, TN 00000<br/>
-										United States
+										Минск
 									</li>
 									<li>
 										<h3 className="icon fa-mobile">
