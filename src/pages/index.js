@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
-// import Lightbox from 'react-images'
+import Contacts from '../components/Contacts'
 import Gallery from '../components/Gallery'
 
 import thumb01 from '../assets/images/thumbs/01.jpg'
@@ -161,72 +161,7 @@ class HomeIndex extends React.Component {
 						</ul>
 					</section>
 
-					<section id="three">
-						<h2>Связаться</h2>
-						<p>
-							Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci
-							faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.
-						</p>
-						<div className="row">
-							<div className="8u 12u$(small)">
-								<form method="post" action="#">
-									<div className="row uniform 50%">
-										<div className="6u 12u$(xsmall)">
-											<input
-												type="text"
-												name="name"
-												id="name"
-												placeholder="Имя"
-											/>
-										</div>
-										<div className="6u 12u$(xsmall)">
-											<input
-												type="email"
-												name="email"
-												id="email"
-												placeholder="Email"
-											/>
-										</div>
-										<div className="12u">
-											<textarea
-												name="message"
-												id="message"
-												placeholder="Сообщение"
-												rows="4">
-
-											</textarea>
-										</div>
-									</div>
-								</form>
-								<ul className="actions">
-									<li><input type="submit" value="Отправить сообщение"/></li>
-								</ul>
-							</div>
-							<div className="4u 12u$(small)">
-								<ul className="labeled-icons">
-									<li>
-										<h3 className="icon fa-home">
-											<span className="label">Адресс</span>
-										</h3>
-										Минск
-									</li>
-									<li>
-										<h3 className="icon fa-mobile">
-											<span className="label">Телефон:</span>
-										</h3>
-										<a href="tel:+375259007017">+375 25 9007017</a>
-									</li>
-									<li>
-										<h3 className="icon fa-envelope-o">
-											<span className="label">Email</span>
-										</h3>
-										<a href="#">hello@untitled.tld</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</section>
-
+					<Contacts />
 				</div>
 
 			</div>
