@@ -1,7 +1,8 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons'
-import { faInstagram, faViber } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons/faEnvelopeOpen'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram'
+import { faViber } from '@fortawesome/free-brands-svg-icons/faViber'
 
 class Footer extends React.Component {
 	render() {
@@ -13,7 +14,8 @@ class Footer extends React.Component {
 							<a href="https://www.instagram.com/stankevich_photo" className="icon">
 								<FontAwesomeIcon icon={faInstagram} />
 							</a>
-						</li>						<li>
+						</li>
+						<li>
 							<a href="viber://chat?number=+375259007017" className="icon">
 								<FontAwesomeIcon icon={faViber} />
 							</a>

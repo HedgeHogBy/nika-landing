@@ -1,6 +1,8 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faMobile, faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons'
+import { faHome } from '@fortawesome/free-solid-svg-icons/faHome'
+import { faMobile } from '@fortawesome/free-solid-svg-icons/faMobile'
+import { faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons/faEnvelopeOpen'
 
 class Contacts extends React.Component {
 	render() {
