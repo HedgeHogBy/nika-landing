@@ -11,7 +11,11 @@ class Footer extends React.Component {
 				<div className="inner">
 					<ul className="icons">
 						<li>
-							<a href="https://www.instagram.com/stankevich_photo" className="icon">
+							<a
+								href="https://www.instagram.com/stankevich_photo"
+								className="icon"
+								target="_blank"
+							>
 								<FontAwesomeIcon icon={faInstagram} />
 							</a>
 						</li>

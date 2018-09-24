@@ -1,10 +1,11 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
+import Header from '../components/Header'
 import Contacts from '../components/Contacts'
 import Gallery from '../components/Gallery'
+
+import '../assets/scss/main.scss'
 
 import thumb01 from '../assets/images/thumbs/01.jpg'
 import thumb02 from '../assets/images/thumbs/02.jpg'
@@ -125,6 +126,8 @@ class HomeIndex extends React.Component {
 					<title>{siteTitle}</title>
 					<meta name="description" content={siteDescription}/>
 				</Helmet>
+
+				<Header/>
 
 				<div id="main">
 
